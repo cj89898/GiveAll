@@ -1,3 +1,7 @@
-# GAH v 1.0.0
-# Created by extended_clip
+# GiveAll v 1.0.0
+# Created by extended_clip and cj89898
+# Valid PlaceHolders:
+# %item% = Item given
+# %player% = Player giving it
+# %amount% = Amount given
 message: "&c%player% &7has Given Everyone: %amount% &c%item%"

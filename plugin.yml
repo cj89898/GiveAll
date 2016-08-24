@@ -1,14 +1,16 @@
-name: GiveAllToAll
+name: GiveAll
 version: 1.0.0
 description: GiveAll Plugin
 author: extended_clip
-main: com.extendedclip.giveallhand.GAH
+authors: [cj89898]
+main: com.extendedclip.giveall.GiveAll
 commands:
-  gah:
-    description: GiveAll
-    usage: '/gah <amount>'
+  giveall:
+    description: Give All
+    usage: '/giveall <item/hand>(amount) (message)'
+    aliases: [ga]
 
 permissions:
-  gah.give:
-    description: GiveAll
+  giveall.give:
+    description: Give All
     default: op
